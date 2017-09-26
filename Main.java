@@ -6,7 +6,7 @@ public class Main {
                 int MPG = scnr.nextInt();
                 if (MPG <= 0) {
                     System.out.println("ERROR: ONLY POSITIVE INTEGERS ARE ACCEPTED FOR MPG!!!");
-                    return;
+                    return; 
                 }
                 System.out.println("Enter your car’s tank capacity (gallons) as a positive decimal number:\n");
                 double TC = scnr.nextDouble();
